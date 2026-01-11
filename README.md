@@ -41,7 +41,7 @@ LOG_LEVEL=INFO
 
 Run
 ```
-python app/ingest.py
+python -m app.ingest
 ```
 then
 ```

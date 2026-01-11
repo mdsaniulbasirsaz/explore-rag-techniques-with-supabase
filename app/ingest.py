@@ -36,8 +36,8 @@ def ingest_pdf(path: str):
             for chunk in chunks:
                 embedding = model.encode(chunk).tolist()
                 cur.execute(
-                    "INSERT INTO documents (content, embedding, source, page) VALUES (%s, %s, %s, %s)",
-                    (chunk, embedding, path, page_no)
+                    "INSERT INTO pdf1 (content, embedding, source, page) VALUES (%s, %s, %s, %s)",
+                    (chunk, embedding, "ecommerce", page_no)
                 )
     
         connection.commit()
@@ -46,5 +46,5 @@ def ingest_pdf(path: str):
         logger.error(f"Ingestion failed for {path}: {e}")
 
 if __name__ == "__main__":
-    pdf_path = "/home/ottokevin/Desktop/RAG Technique/datasets/resume.pdf"
+    pdf_path = "/home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf"
     ingest_pdf(pdf_path)

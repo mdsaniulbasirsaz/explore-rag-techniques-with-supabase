@@ -1,0 +1,310 @@
+2026-01-11 17:23:21,521 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:23:55,989 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:23:59,376 - app_logger - INFO - Starting ingestion for PDF: /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf
+2026-01-11 17:24:00,148 - app_logger - INFO - PDF /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf ingested successfully.
+2026-01-11 17:25:00,375 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:25:06,139 - app_logger - INFO - API is running.....
+2026-01-11 17:26:08,941 - app_logger - INFO - Received query: 'List 5 cheapest hoodies.' from source: None
+2026-01-11 17:26:14,291 - app_logger - INFO - Response sent for query: 'List 5 cheapest hoodies.'
+2026-01-11 17:27:08,109 - app_logger - INFO - Received query: 'Show me products under $50.' from source: None
+2026-01-11 17:27:12,052 - app_logger - INFO - Response sent for query: 'Show me products under $50.'
+2026-01-11 17:27:54,907 - app_logger - INFO - Received query: 'Show me products under 50.' from source: None
+2026-01-11 17:27:58,564 - app_logger - INFO - Response sent for query: 'Show me products under 50.'
+2026-01-11 17:29:00,649 - app_logger - INFO - Received query: 'Show me products Apparel' from source: None
+2026-01-11 17:29:04,400 - app_logger - INFO - Response sent for query: 'Show me products Apparel'
+2026-01-11 17:31:10,555 - app_logger - INFO - Received query: 'Show me products 10 Apparel ' from source: None
+2026-01-11 17:31:16,538 - app_logger - INFO - Response sent for query: 'Show me products 10 Apparel '
+2026-01-11 17:32:11,456 - app_logger - INFO - Received query: 'Show me return policy' from source: None
+2026-01-11 17:32:11,488 - app_logger - INFO - Response sent for query: 'Show me return policy'
+2026-01-11 17:32:25,360 - app_logger - INFO - Received query: 'return policy' from source: None
+2026-01-11 17:32:25,371 - app_logger - INFO - Response sent for query: 'return policy'
+2026-01-11 17:32:52,767 - app_logger - INFO - Received query: 'What is the return policy?' from source: None
+2026-01-11 17:32:52,778 - app_logger - INFO - Response sent for query: 'What is the return policy?'
+2026-01-11 17:34:51,391 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:34:59,425 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:35:06,621 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:35:13,709 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:35:21,669 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:35:29,271 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:35:37,461 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:35:45,397 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:36:08,295 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:36:20,970 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:36:29,703 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:36:37,437 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:36:44,640 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:36:51,651 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:39:11,993 - app_logger - INFO - Received query: 'What is the return policy?' from source: None
+2026-01-11 17:39:11,993 - app_logger - INFO - Received query: 'What is the return policy?' from source: ecommerce
+2026-01-11 17:39:12,036 - app_logger - INFO - No relevant data found for query: 'What is the return policy?'
+2026-01-11 17:39:12,036 - app_logger - INFO - Response sent for query: 'What is the return policy?'
+2026-01-11 17:47:23,008 - app_logger - ERROR - Error connecting to the database: connection to server at "localhost" (127.0.0.1), port 54322 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2026-01-11 17:47:39,194 - app_logger - INFO - Received query: 'show me 10 products' from source: None
+2026-01-11 17:47:39,194 - app_logger - INFO - Received query: 'show me 10 products' from source: ecommerce
+2026-01-11 17:47:43,615 - app_logger - INFO - Response sent for query: 'show me 10 products'
+2026-01-11 17:47:43,615 - app_logger - INFO - Response sent for query: 'show me 10 products'
+2026-01-11 17:48:04,760 - app_logger - INFO - Received query: 'show me 10 products with prices' from source: None
+2026-01-11 17:48:04,760 - app_logger - INFO - Received query: 'show me 10 products with prices' from source: ecommerce
+2026-01-11 17:48:08,829 - app_logger - INFO - Response sent for query: 'show me 10 products with prices'
+2026-01-11 17:48:08,829 - app_logger - INFO - Response sent for query: 'show me 10 products with prices'
+2026-01-11 17:48:39,924 - app_logger - INFO - Received query: 'show me 100 products with prices' from source: None
+2026-01-11 17:48:39,925 - app_logger - INFO - Received query: 'show me 100 products with prices' from source: ecommerce
+2026-01-11 17:48:47,597 - app_logger - INFO - Response sent for query: 'show me 100 products with prices'
+2026-01-11 17:48:47,597 - app_logger - INFO - Response sent for query: 'show me 100 products with prices'
+2026-01-11 17:52:59,981 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:53:07,100 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:54:20,027 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:54:28,353 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:54:36,533 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:54:43,672 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:54:50,749 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:55:01,925 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:55:10,114 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:55:18,247 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:55:25,329 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:55:39,309 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:55:47,617 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:55:57,410 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:56:04,626 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:58:15,228 - app_logger - INFO - Database connection established successfully.
+2026-01-11 17:58:18,698 - app_logger - INFO - Starting ingestion for PDF: /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf
+2026-01-11 17:58:19,518 - app_logger - INFO - PDF /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf ingested successfully.
+2026-01-11 18:00:12,317 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:00:34,099 - app_logger - INFO - Received query: 'What is the return policy?' from source: None
+2026-01-11 18:00:34,099 - app_logger - INFO - Received query: 'What is the return policy?' from source: ecommerce
+2026-01-11 18:00:34,115 - app_logger - INFO - No relevant data found for query: 'What is the return policy?'
+2026-01-11 18:00:34,115 - app_logger - INFO - Response sent for query: 'What is the return policy?'
+2026-01-11 18:12:01,736 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:12:09,043 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:12:20,192 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:12:27,282 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:12:40,238 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:12:43,568 - app_logger - INFO - Starting ingestion for PDF: /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf
+2026-01-11 18:12:44,221 - app_logger - INFO - PDF /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf ingested successfully.
+2026-01-11 18:16:04,210 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:16:11,579 - app_logger - INFO - Received query: 'What is the return policy?' from source: None
+2026-01-11 18:16:11,579 - app_logger - INFO - Received query: 'What is the return policy?' from source: ecommerce
+2026-01-11 18:16:11,595 - app_logger - INFO - No relevant data found for query: 'What is the return policy?'
+2026-01-11 18:16:11,595 - app_logger - INFO - Response sent for query: 'What is the return policy?'
+2026-01-11 18:18:59,089 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:19:20,552 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:22:06,679 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:22:10,147 - app_logger - INFO - Starting ingestion for PDF: /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf
+2026-01-11 18:22:10,199 - app_logger - INFO - Inserted chunk from page 0 (length 500)
+2026-01-11 18:22:10,217 - app_logger - INFO - Inserted chunk from page 0 (length 500)
+2026-01-11 18:22:10,238 - app_logger - INFO - Inserted chunk from page 0 (length 500)
+2026-01-11 18:22:10,262 - app_logger - INFO - Inserted chunk from page 0 (length 500)
+2026-01-11 18:22:10,281 - app_logger - INFO - Inserted chunk from page 0 (length 500)
+2026-01-11 18:22:10,295 - app_logger - INFO - Inserted chunk from page 0 (length 77)
+2026-01-11 18:22:10,343 - app_logger - INFO - Inserted chunk from page 1 (length 500)
+2026-01-11 18:22:10,370 - app_logger - INFO - Inserted chunk from page 1 (length 500)
+2026-01-11 18:22:10,388 - app_logger - INFO - Inserted chunk from page 1 (length 500)
+2026-01-11 18:22:10,406 - app_logger - INFO - Inserted chunk from page 1 (length 500)
+2026-01-11 18:22:10,425 - app_logger - INFO - Inserted chunk from page 1 (length 496)
+2026-01-11 18:22:10,434 - app_logger - INFO - Inserted chunk from page 1 (length 46)
+2026-01-11 18:22:10,467 - app_logger - INFO - Inserted chunk from page 2 (length 500)
+2026-01-11 18:22:10,485 - app_logger - INFO - Inserted chunk from page 2 (length 500)
+2026-01-11 18:22:10,507 - app_logger - INFO - Inserted chunk from page 2 (length 500)
+2026-01-11 18:22:10,527 - app_logger - INFO - Inserted chunk from page 2 (length 341)
+2026-01-11 18:22:10,563 - app_logger - INFO - Inserted chunk from page 3 (length 500)
+2026-01-11 18:22:10,580 - app_logger - INFO - Inserted chunk from page 3 (length 500)
+2026-01-11 18:22:10,599 - app_logger - INFO - Inserted chunk from page 3 (length 500)
+2026-01-11 18:22:10,619 - app_logger - INFO - Inserted chunk from page 3 (length 500)
+2026-01-11 18:22:10,632 - app_logger - INFO - Inserted chunk from page 3 (length 186)
+2026-01-11 18:22:10,677 - app_logger - INFO - Inserted chunk from page 4 (length 500)
+2026-01-11 18:22:10,700 - app_logger - INFO - Inserted chunk from page 4 (length 500)
+2026-01-11 18:22:10,729 - app_logger - INFO - Inserted chunk from page 4 (length 500)
+2026-01-11 18:22:10,757 - app_logger - INFO - Inserted chunk from page 4 (length 500)
+2026-01-11 18:22:10,771 - app_logger - INFO - Inserted chunk from page 4 (length 97)
+2026-01-11 18:22:10,820 - app_logger - INFO - Inserted chunk from page 5 (length 500)
+2026-01-11 18:22:10,845 - app_logger - INFO - Inserted chunk from page 5 (length 500)
+2026-01-11 18:22:10,863 - app_logger - INFO - Inserted chunk from page 5 (length 462)
+2026-01-11 18:22:10,875 - app_logger - INFO - Inserted chunk from page 5 (length 12)
+2026-01-11 18:22:10,913 - app_logger - INFO - Inserted chunk from page 6 (length 500)
+2026-01-11 18:22:10,931 - app_logger - INFO - Inserted chunk from page 6 (length 500)
+2026-01-11 18:22:10,948 - app_logger - INFO - Inserted chunk from page 6 (length 500)
+2026-01-11 18:22:10,965 - app_logger - INFO - Inserted chunk from page 6 (length 363)
+2026-01-11 18:22:11,000 - app_logger - INFO - Inserted chunk from page 7 (length 500)
+2026-01-11 18:22:11,014 - app_logger - INFO - Inserted chunk from page 7 (length 500)
+2026-01-11 18:22:11,031 - app_logger - INFO - Inserted chunk from page 7 (length 500)
+2026-01-11 18:22:11,050 - app_logger - INFO - Inserted chunk from page 7 (length 277)
+2026-01-11 18:22:11,051 - app_logger - INFO - PDF /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf ingested successfully with embeddings.
+2026-01-11 18:24:19,398 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:25:57,408 - app_logger - INFO - Received query: 'What is the return policy?' from source: supabase
+2026-01-11 18:25:57,408 - app_logger - INFO - Received query: 'What is the return policy?' from source: supabase
+2026-01-11 18:25:57,424 - app_logger - INFO - No relevant data found for query: 'What is the return policy?'
+2026-01-11 18:25:57,425 - app_logger - INFO - Response sent for query: 'What is the return policy?'
+2026-01-11 18:26:28,906 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:26:32,690 - app_logger - INFO - Starting ingestion for PDF: /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf
+2026-01-11 18:26:32,840 - app_logger - INFO - Inserted chunk from page 0 (length 500)
+2026-01-11 18:26:32,865 - app_logger - INFO - Inserted chunk from page 0 (length 500)
+2026-01-11 18:26:32,894 - app_logger - INFO - Inserted chunk from page 0 (length 500)
+2026-01-11 18:26:32,915 - app_logger - INFO - Inserted chunk from page 0 (length 500)
+2026-01-11 18:26:32,940 - app_logger - INFO - Inserted chunk from page 0 (length 500)
+2026-01-11 18:26:32,956 - app_logger - INFO - Inserted chunk from page 0 (length 77)
+2026-01-11 18:26:33,009 - app_logger - INFO - Inserted chunk from page 1 (length 500)
+2026-01-11 18:26:33,027 - app_logger - INFO - Inserted chunk from page 1 (length 500)
+2026-01-11 18:26:33,048 - app_logger - INFO - Inserted chunk from page 1 (length 500)
+2026-01-11 18:26:33,066 - app_logger - INFO - Inserted chunk from page 1 (length 500)
+2026-01-11 18:26:33,087 - app_logger - INFO - Inserted chunk from page 1 (length 496)
+2026-01-11 18:26:33,100 - app_logger - INFO - Inserted chunk from page 1 (length 46)
+2026-01-11 18:26:33,137 - app_logger - INFO - Inserted chunk from page 2 (length 500)
+2026-01-11 18:26:33,181 - app_logger - INFO - Inserted chunk from page 2 (length 500)
+2026-01-11 18:26:33,216 - app_logger - INFO - Inserted chunk from page 2 (length 500)
+2026-01-11 18:26:33,239 - app_logger - INFO - Inserted chunk from page 2 (length 341)
+2026-01-11 18:26:33,295 - app_logger - INFO - Inserted chunk from page 3 (length 500)
+2026-01-11 18:26:33,317 - app_logger - INFO - Inserted chunk from page 3 (length 500)
+2026-01-11 18:26:33,337 - app_logger - INFO - Inserted chunk from page 3 (length 500)
+2026-01-11 18:26:33,356 - app_logger - INFO - Inserted chunk from page 3 (length 500)
+2026-01-11 18:26:33,371 - app_logger - INFO - Inserted chunk from page 3 (length 186)
+2026-01-11 18:26:33,412 - app_logger - INFO - Inserted chunk from page 4 (length 500)
+2026-01-11 18:26:33,434 - app_logger - INFO - Inserted chunk from page 4 (length 500)
+2026-01-11 18:26:33,458 - app_logger - INFO - Inserted chunk from page 4 (length 500)
+2026-01-11 18:26:33,482 - app_logger - INFO - Inserted chunk from page 4 (length 500)
+2026-01-11 18:26:33,536 - app_logger - INFO - Inserted chunk from page 4 (length 97)
+2026-01-11 18:26:33,573 - app_logger - INFO - Inserted chunk from page 5 (length 500)
+2026-01-11 18:26:33,593 - app_logger - INFO - Inserted chunk from page 5 (length 500)
+2026-01-11 18:26:33,620 - app_logger - INFO - Inserted chunk from page 5 (length 462)
+2026-01-11 18:26:33,630 - app_logger - INFO - Inserted chunk from page 5 (length 12)
+2026-01-11 18:26:33,683 - app_logger - INFO - Inserted chunk from page 6 (length 500)
+2026-01-11 18:26:33,699 - app_logger - INFO - Inserted chunk from page 6 (length 500)
+2026-01-11 18:26:33,716 - app_logger - INFO - Inserted chunk from page 6 (length 500)
+2026-01-11 18:26:33,731 - app_logger - INFO - Inserted chunk from page 6 (length 363)
+2026-01-11 18:26:33,777 - app_logger - INFO - Inserted chunk from page 7 (length 500)
+2026-01-11 18:26:33,797 - app_logger - INFO - Inserted chunk from page 7 (length 500)
+2026-01-11 18:26:33,818 - app_logger - INFO - Inserted chunk from page 7 (length 500)
+2026-01-11 18:26:33,832 - app_logger - INFO - Inserted chunk from page 7 (length 277)
+2026-01-11 18:26:33,835 - app_logger - INFO - PDF /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf ingested successfully with embeddings.
+2026-01-11 18:27:09,347 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:27:13,484 - app_logger - INFO - Starting ingestion for PDF: /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf
+2026-01-11 18:27:13,548 - app_logger - INFO - Inserted chunk from page 0 (length 500)
+2026-01-11 18:27:13,565 - app_logger - INFO - Inserted chunk from page 0 (length 500)
+2026-01-11 18:27:13,586 - app_logger - INFO - Inserted chunk from page 0 (length 500)
+2026-01-11 18:27:13,608 - app_logger - INFO - Inserted chunk from page 0 (length 500)
+2026-01-11 18:27:13,628 - app_logger - INFO - Inserted chunk from page 0 (length 500)
+2026-01-11 18:27:13,640 - app_logger - INFO - Inserted chunk from page 0 (length 77)
+2026-01-11 18:27:13,694 - app_logger - INFO - Inserted chunk from page 1 (length 500)
+2026-01-11 18:27:13,717 - app_logger - INFO - Inserted chunk from page 1 (length 500)
+2026-01-11 18:27:13,736 - app_logger - INFO - Inserted chunk from page 1 (length 500)
+2026-01-11 18:27:13,759 - app_logger - INFO - Inserted chunk from page 1 (length 500)
+2026-01-11 18:27:13,780 - app_logger - INFO - Inserted chunk from page 1 (length 496)
+2026-01-11 18:27:13,792 - app_logger - INFO - Inserted chunk from page 1 (length 46)
+2026-01-11 18:27:13,828 - app_logger - INFO - Inserted chunk from page 2 (length 500)
+2026-01-11 18:27:13,846 - app_logger - INFO - Inserted chunk from page 2 (length 500)
+2026-01-11 18:27:13,868 - app_logger - INFO - Inserted chunk from page 2 (length 500)
+2026-01-11 18:27:13,884 - app_logger - INFO - Inserted chunk from page 2 (length 341)
+2026-01-11 18:27:13,918 - app_logger - INFO - Inserted chunk from page 3 (length 500)
+2026-01-11 18:27:13,940 - app_logger - INFO - Inserted chunk from page 3 (length 500)
+2026-01-11 18:27:13,959 - app_logger - INFO - Inserted chunk from page 3 (length 500)
+2026-01-11 18:27:13,988 - app_logger - INFO - Inserted chunk from page 3 (length 500)
+2026-01-11 18:27:14,005 - app_logger - INFO - Inserted chunk from page 3 (length 186)
+2026-01-11 18:27:14,057 - app_logger - INFO - Inserted chunk from page 4 (length 500)
+2026-01-11 18:27:14,077 - app_logger - INFO - Inserted chunk from page 4 (length 500)
+2026-01-11 18:27:14,098 - app_logger - INFO - Inserted chunk from page 4 (length 500)
+2026-01-11 18:27:14,126 - app_logger - INFO - Inserted chunk from page 4 (length 500)
+2026-01-11 18:27:14,143 - app_logger - INFO - Inserted chunk from page 4 (length 97)
+2026-01-11 18:27:14,186 - app_logger - INFO - Inserted chunk from page 5 (length 500)
+2026-01-11 18:27:14,204 - app_logger - INFO - Inserted chunk from page 5 (length 500)
+2026-01-11 18:27:14,223 - app_logger - INFO - Inserted chunk from page 5 (length 462)
+2026-01-11 18:27:14,236 - app_logger - INFO - Inserted chunk from page 5 (length 12)
+2026-01-11 18:27:14,306 - app_logger - INFO - Inserted chunk from page 6 (length 500)
+2026-01-11 18:27:14,336 - app_logger - INFO - Inserted chunk from page 6 (length 500)
+2026-01-11 18:27:14,355 - app_logger - INFO - Inserted chunk from page 6 (length 500)
+2026-01-11 18:27:14,370 - app_logger - INFO - Inserted chunk from page 6 (length 363)
+2026-01-11 18:27:14,406 - app_logger - INFO - Inserted chunk from page 7 (length 500)
+2026-01-11 18:27:14,424 - app_logger - INFO - Inserted chunk from page 7 (length 500)
+2026-01-11 18:27:14,444 - app_logger - INFO - Inserted chunk from page 7 (length 500)
+2026-01-11 18:27:14,467 - app_logger - INFO - Inserted chunk from page 7 (length 277)
+2026-01-11 18:27:14,471 - app_logger - INFO - PDF /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf ingested successfully with embeddings.
+2026-01-11 18:27:19,905 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:27:53,315 - app_logger - INFO - Received query: 'What is the return policy?' from source: None
+2026-01-11 18:27:53,315 - app_logger - INFO - Received query: 'What is the return policy?' from source: ecommerce
+2026-01-11 18:27:53,330 - app_logger - INFO - No relevant data found for query: 'What is the return policy?'
+2026-01-11 18:27:53,331 - app_logger - INFO - Response sent for query: 'What is the return policy?'
+2026-01-11 18:29:14,802 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:29:26,515 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:29:39,965 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:30:46,531 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:31:32,965 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:31:36,490 - app_logger - INFO - Starting ingestion for PDF: /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf
+2026-01-11 18:31:36,552 - app_logger - ERROR - Ingestion failed for /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf: can't adapt type 'Vector'
+2026-01-11 18:32:57,529 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:33:01,589 - app_logger - INFO - Starting ingestion for PDF: /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf
+2026-01-11 18:33:01,636 - app_logger - ERROR - Ingestion failed for /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf: can't adapt type 'Vector'
+2026-01-11 18:33:50,878 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:33:54,731 - app_logger - INFO - Starting ingestion for PDF: /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf
+2026-01-11 18:33:54,778 - app_logger - ERROR - Ingestion failed for /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf: can't adapt type 'Vector'
+2026-01-11 18:34:07,624 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:34:11,122 - app_logger - INFO - Starting ingestion for PDF: /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf
+2026-01-11 18:34:11,170 - app_logger - ERROR - Ingestion failed for /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf: can't adapt type 'Vector'
+2026-01-11 18:35:03,345 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:35:07,293 - app_logger - INFO - Starting ingestion for PDF: /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf
+2026-01-11 18:35:07,342 - app_logger - ERROR - Ingestion failed for /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf: can't adapt type 'Vector'
+2026-01-11 18:36:11,027 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:38:39,668 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:38:43,187 - app_logger - INFO - Starting ingestion for PDF: /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf
+2026-01-11 18:38:43,233 - app_logger - ERROR - Ingestion failed for /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf: can't adapt type 'Vector'
+2026-01-11 18:39:14,205 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:39:17,621 - app_logger - ERROR - File not found: /home/ottokevin/Desktop/RAG Technique/datasets/resume.pdf
+2026-01-11 18:39:34,027 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:39:38,522 - app_logger - INFO - Starting ingestion for PDF: /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf
+2026-01-11 18:39:39,140 - app_logger - INFO - PDF /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf ingested successfully.
+2026-01-11 18:40:11,498 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:40:34,614 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:40:41,664 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:40:52,818 - app_logger - INFO - Received query: 'What is the return policy?' from source: None
+2026-01-11 18:40:52,818 - app_logger - INFO - Received query: 'What is the return policy?' from source: ecommerce
+2026-01-11 18:40:52,875 - app_logger - INFO - No relevant data found for query: 'What is the return policy?'
+2026-01-11 18:40:52,875 - app_logger - INFO - Response sent for query: 'What is the return policy?'
+2026-01-11 18:42:05,928 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:42:18,762 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:42:24,087 - app_logger - INFO - Received query: 'What is the return policy?' from source: None
+2026-01-11 18:42:24,087 - app_logger - INFO - Received query: 'What is the return policy?' from source: ecommerce
+2026-01-11 18:42:24,104 - app_logger - INFO - No relevant data found for query: 'What is the return policy?'
+2026-01-11 18:42:24,104 - app_logger - INFO - Response sent for query: 'What is the return policy?'
+2026-01-11 18:47:31,940 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:47:42,286 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:47:50,644 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:47:57,684 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:48:13,907 - app_logger - INFO - Received query: 'What is the return policy?' from source: None
+2026-01-11 18:48:13,907 - app_logger - INFO - Received query: 'What is the return policy?' from source: ecommerce
+2026-01-11 18:48:13,926 - app_logger - INFO - No relevant data found for query: 'What is the return policy?'
+2026-01-11 18:48:13,926 - app_logger - INFO - Response sent for query: 'What is the return policy?'
+2026-01-11 18:48:35,577 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:49:46,751 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:49:51,358 - app_logger - INFO - Received query: 'What is the return policy?' from source: None
+2026-01-11 18:49:51,358 - app_logger - INFO - Received query: 'What is the return policy?' from source: ecommerce
+2026-01-11 18:49:51,376 - app_logger - INFO - No relevant data found for query: 'What is the return policy?'
+2026-01-11 18:49:51,377 - app_logger - INFO - Response sent for query: 'What is the return policy?'
+2026-01-11 18:51:06,571 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:51:14,846 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:51:27,516 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:51:45,995 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:51:54,961 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:51:58,366 - app_logger - INFO - Starting ingestion for PDF: /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf
+2026-01-11 18:51:58,998 - app_logger - INFO - PDF /home/ottokevin/Desktop/RAG Technique/datasets/ecommerce.pdf ingested successfully.
+2026-01-11 18:54:12,338 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:54:18,193 - app_logger - INFO - Received query: 'What is the return policy?' from source: 'ecommerce'
+2026-01-11 18:54:18,193 - app_logger - INFO - Received query: 'What is the return policy?' from source: ecommerce
+2026-01-11 18:54:22,141 - app_logger - INFO - Response sent for query: 'What is the return policy?'
+2026-01-11 18:54:22,141 - app_logger - INFO - Response sent for query: 'What is the return policy?'
+2026-01-11 18:54:35,260 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:54:38,825 - app_logger - INFO - Received query: 'What is the return policy?' from source: ecommerce
+2026-01-11 18:54:38,825 - app_logger - INFO - Received query: 'What is the return policy?' from source: ecommerce
+2026-01-11 18:54:43,197 - app_logger - INFO - Response sent for query: 'What is the return policy?'
+2026-01-11 18:54:43,197 - app_logger - INFO - Response sent for query: 'What is the return policy?'
+2026-01-11 18:55:27,649 - app_logger - INFO - Received query: 'show me high price 2 products' from source: None
+2026-01-11 18:55:27,649 - app_logger - INFO - Received query: 'show me high price 2 products' from source: ecommerce
+2026-01-11 18:55:36,738 - app_logger - INFO - Response sent for query: 'show me high price 2 products'
+2026-01-11 18:55:36,738 - app_logger - INFO - Response sent for query: 'show me high price 2 products'
+2026-01-11 18:56:09,346 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:56:17,664 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:56:29,445 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:56:36,553 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:56:49,153 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:56:58,760 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:57:24,648 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:58:11,222 - app_logger - INFO - Database connection established successfully.
+2026-01-11 18:58:19,490 - app_logger - INFO - Database connection established successfully.

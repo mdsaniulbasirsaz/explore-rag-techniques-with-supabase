@@ -1,10 +1,10 @@
 from pydantic import BaseModel
-from typing import List
+from typing import List, Optional
 
 
 class QueryRequest(BaseModel):
     query: str
-    source: str
+    source: Optional[str] = None
 
 class RAGResponse(BaseModel):
     answer: str
