@@ -45,8 +45,9 @@ python -m app.ingest
 ```
 then
 ```
-http://localhost:54321/documents
+http://localhost:54321/documents   # Here documents is supabase table name
 ```
+
 ![alt text](images/Supabase-Data.png)
 
 Data Ingest Log:
