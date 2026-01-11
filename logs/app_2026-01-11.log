@@ -445,3 +445,44 @@
 2026-01-11 23:11:43,169 - app_logger - INFO - API is running.....
 2026-01-11 23:11:43,466 - app_logger - INFO - API is running.....
 2026-01-11 23:11:43,769 - app_logger - INFO - API is running.....
+2026-01-11 23:38:40,890 - app_logger - INFO - Database connection established successfully.
+2026-01-11 23:39:12,663 - app_logger - INFO - Database connection established successfully.
+2026-01-11 23:39:19,791 - app_logger - INFO - Database connection established successfully.
+2026-01-11 23:39:27,129 - app_logger - INFO - Database connection established successfully.
+2026-01-11 23:39:35,542 - app_logger - INFO - Database connection established successfully.
+2026-01-11 23:39:42,880 - app_logger - INFO - Database connection established successfully.
+2026-01-11 23:40:01,932 - app_logger - INFO - Database connection established successfully.
+2026-01-11 23:40:09,885 - app_logger - INFO - Database connection established successfully.
+2026-01-11 23:40:17,168 - app_logger - INFO - Database connection established successfully.
+2026-01-11 23:40:25,104 - app_logger - INFO - Database connection established successfully.
+2026-01-11 23:47:46,587 - app_logger - INFO - Received query: 'I want to know product return poolicy?' from source: ecommerce
+2026-01-11 23:47:46,587 - app_logger - INFO - Received query: 'I want to know product return poolicy?' from source: ecommerce
+2026-01-11 23:47:51,905 - app_logger - INFO - Response sent for query: 'I want to know product return poolicy?'
+2026-01-11 23:49:02,919 - app_logger - INFO - Database connection established successfully.
+2026-01-11 23:49:11,766 - app_logger - INFO - Database connection established successfully.
+2026-01-11 23:49:19,875 - app_logger - INFO - Database connection established successfully.
+2026-01-11 23:49:23,416 - app_logger - INFO - Received query: 'I want to know product return policy?' from source: ecommerce
+2026-01-11 23:49:23,416 - app_logger - INFO - Received query: 'I want to know product return policy?' from source: ecommerce
+2026-01-11 23:49:29,049 - app_logger - INFO - Response sent for query: 'I want to know product return policy?'
+2026-01-11 23:49:50,806 - app_logger - INFO - Database connection established successfully.
+2026-01-11 23:50:25,627 - app_logger - INFO - Received query: 'Find highprice products list top 3' from source: None
+2026-01-11 23:50:25,628 - app_logger - INFO - Received query: 'Find highprice products list top 3' from source: ecommerce
+2026-01-11 23:50:36,021 - app_logger - INFO - Response sent for query: 'Find highprice products list top 3'
+2026-01-11 23:52:37,547 - app_logger - INFO - Database connection established successfully.
+2026-01-11 23:52:54,564 - app_logger - INFO - Received query: 'Find highprice products list top 3' from source: None
+2026-01-11 23:52:54,564 - app_logger - INFO - Received query: 'Find highprice products list top 3' from source: ecommerce
+2026-01-11 23:53:02,800 - app_logger - INFO - Response sent for query: 'Find highprice products list top 3'
+2026-01-11 23:53:47,856 - app_logger - INFO - Database connection established successfully.
+2026-01-11 23:53:52,221 - app_logger - INFO - Received query: 'Find highprice products list top 3' from source: None
+2026-01-11 23:53:52,221 - app_logger - INFO - Received query: 'Find highprice products list top 3' from source: ecommerce
+2026-01-11 23:54:01,621 - app_logger - WARNING - RAG returned no result
+2026-01-11 23:54:44,845 - app_logger - INFO - Received query: 'Return Policy' from source: ecommerce
+2026-01-11 23:54:44,845 - app_logger - INFO - Received query: 'Return Policy' from source: ecommerce
+2026-01-11 23:54:51,462 - app_logger - WARNING - RAG returned no result
+2026-01-11 23:55:09,823 - app_logger - INFO - Database connection established successfully.
+2026-01-11 23:55:46,388 - app_logger - INFO - Database connection established successfully.
+2026-01-11 23:56:00,338 - app_logger - INFO - Received query: 'What is the return policy?' from source: ecommerce
+2026-01-11 23:56:00,339 - app_logger - INFO - Received query: 'What is the return policy?' from source: ecommerce
+2026-01-11 23:56:05,001 - app_logger - INFO - Response sent for query: 'What is the return policy?'
+2026-01-11 23:56:26,986 - app_logger - INFO - Database connection established successfully.
+2026-01-11 23:56:35,284 - app_logger - INFO - Database connection established successfully.

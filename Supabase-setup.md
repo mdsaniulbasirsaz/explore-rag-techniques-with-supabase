@@ -52,6 +52,8 @@ docker ps
 ```
 Access Supabase
 
+![alt text](images/supabase-docker.png)
+
 > REST API:	http://localhost:54321
 
 > Postgres: localhost:54322
