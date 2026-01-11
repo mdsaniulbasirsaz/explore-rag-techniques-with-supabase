@@ -1,0 +1,5 @@
+2026-01-10 22:34:47,515 - app_logger - INFO - Database connection established successfully.
+2026-01-10 22:34:51,150 - app_logger - ERROR - ngestion failed for datasets/resume.pdf: [Errno 2] No such file or directory: 'datasets/resume.pdf'
+2026-01-10 22:35:44,322 - app_logger - INFO - Database connection established successfully.
+2026-01-10 22:35:48,227 - app_logger - INFO - Starting ingestion for PDF: ../datasets/resume.pdf
+2026-01-10 22:35:48,318 - app_logger - ERROR - ngestion failed for ../datasets/resume.pdf: argument 1 must be a string or unicode object: got tuple instead

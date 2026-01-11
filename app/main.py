@@ -1,0 +1,25 @@
+from fastapi import FastAPI
+from app.models import QueryRequest, RAGResponse
+
+from app.rag import ask
+from app.logger import logger
+
+app = FastAPI(title="Hybrid RAG Hands on Practice with API with Logger")
+
+@app.get("/")
+def home():
+    logger.info("API is running.....")
+    return {
+        "message": "Hybrid RAG Hands on With FastAPI with custom logger is running"
+    }
+
+@app.post("/query", response_model=RAGResponse)
+def query_rag(request: QueryRequest):
+
+    logger.info(f"Received query: '{request.query}' from source: {request.source}")
+
+    response = ask(request.query, request.source)
+    logger.info(f"Response sent for query: '{request.query}'")
+
+
+    return response

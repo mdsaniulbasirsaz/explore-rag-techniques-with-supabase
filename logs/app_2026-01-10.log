@@ -1,0 +1,52 @@
+2026-01-10 22:36:17,532 - app_logger - INFO - Database connection established successfully.
+2026-01-10 22:36:21,165 - app_logger - ERROR - ngestion failed for ../datasets/resume.pdf: [Errno 2] No such file or directory: '../datasets/resume.pdf'
+2026-01-10 22:38:00,314 - app_logger - INFO - Database connection established successfully.
+2026-01-10 22:38:04,867 - app_logger - INFO - Starting ingestion for PDF: /home/ottokevin/Desktop/RAG Technique/datasets/resume.pdf
+2026-01-10 22:38:04,931 - app_logger - ERROR - Ingestion failed for /home/ottokevin/Desktop/RAG Technique/datasets/resume.pdf: relation "documents" does not exist
+LINE 1: INSERT INTO documents (content, embedding, source, page) VAL...
+                    ^
+
+2026-01-10 22:39:14,247 - app_logger - INFO - Database connection established successfully.
+2026-01-10 22:39:18,652 - app_logger - INFO - Starting ingestion for PDF: /home/ottokevin/Desktop/RAG Technique/datasets/resume.pdf
+2026-01-10 22:39:18,711 - app_logger - ERROR - Ingestion failed for /home/ottokevin/Desktop/RAG Technique/datasets/resume.pdf: expected 768 dimensions, not 384
+
+2026-01-10 22:40:17,247 - app_logger - INFO - Database connection established successfully.
+2026-01-10 22:43:15,719 - app_logger - INFO - Starting ingestion for PDF: /home/ottokevin/Desktop/RAG Technique/datasets/resume.pdf
+2026-01-10 22:43:16,831 - app_logger - INFO - PDF /home/ottokevin/Desktop/RAG Technique/datasets/resume.pdf ingested successfully.
+2026-01-10 23:00:51,223 - app_logger - INFO - Database connection established successfully.
+2026-01-10 23:01:02,001 - app_logger - INFO - Database connection established successfully.
+2026-01-10 23:01:49,460 - app_logger - INFO - Database connection established successfully.
+2026-01-10 23:03:34,236 - app_logger - INFO - Database connection established successfully.
+2026-01-10 23:03:50,527 - app_logger - INFO - Database connection established successfully.
+2026-01-10 23:04:00,943 - app_logger - INFO - Database connection established successfully.
+2026-01-10 23:04:08,422 - app_logger - INFO - API is running.....
+2026-01-10 23:09:14,349 - app_logger - INFO - Received query: 'What skills are listed in my resume?' from source: resume.pdf
+2026-01-10 23:09:14,370 - app_logger - ERROR - Hybrid retrieval failed: operator does not exist: vector <-> numeric[]
+LINE 5:             ORDER BY embedding <-> ARRAY[ -0.009273605421185...
+                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+2026-01-10 23:09:15,866 - app_logger - INFO - Generated answer for query: 'What skills are listed in my resume?'
+2026-01-10 23:09:15,867 - app_logger - INFO - Response sent for query: 'What skills are listed in my resume?'
+2026-01-10 23:11:22,878 - app_logger - INFO - Database connection established successfully.
+2026-01-10 23:17:27,478 - app_logger - INFO - Database connection established successfully.
+2026-01-10 23:17:31,855 - app_logger - INFO - Starting ingestion for PDF: /home/ottokevin/Desktop/RAG Technique/datasets/resume.pdf
+2026-01-10 23:17:32,062 - app_logger - INFO - PDF /home/ottokevin/Desktop/RAG Technique/datasets/resume.pdf ingested successfully.
+2026-01-10 23:18:11,224 - app_logger - INFO - Database connection established successfully.
+2026-01-10 23:18:19,487 - app_logger - INFO - Received query: 'What skills are listed in my resume?' from source: resume.pdf
+2026-01-10 23:18:19,506 - app_logger - ERROR - Hybrid retrieval failed: operator does not exist: vector <-> numeric[]
+LINE 5:             ORDER BY embedding <-> ARRAY[ -0.009273605421185...
+                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+2026-01-10 23:18:21,642 - app_logger - INFO - Generated answer for query: 'What skills are listed in my resume?'
+2026-01-10 23:18:21,642 - app_logger - INFO - Response sent for query: 'What skills are listed in my resume?'
+2026-01-10 23:20:37,425 - app_logger - INFO - Database connection established successfully.
+2026-01-10 23:20:50,917 - app_logger - INFO - Received query: 'What skills are listed in my resume?' from source: resume.pdf
+2026-01-10 23:20:50,940 - app_logger - INFO - Retrieved 0 chunks for query: 'What skills are listed in my resume?' from source: resume.pdf
+2026-01-10 23:20:53,128 - app_logger - INFO - Generated answer for query: 'What skills are listed in my resume?'
+2026-01-10 23:20:53,128 - app_logger - INFO - Response sent for query: 'What skills are listed in my resume?'
+2026-01-10 23:22:06,438 - app_logger - INFO - Received query: 'What skills are listed in my resume?' from source: /home/ottokevin/Desktop/RAG Technique/datasets/resume.pdf
+2026-01-10 23:22:06,453 - app_logger - INFO - Retrieved 5 chunks for query: 'What skills are listed in my resume?' from source: /home/ottokevin/Desktop/RAG Technique/datasets/resume.pdf
+2026-01-10 23:22:09,750 - app_logger - INFO - Generated answer for query: 'What skills are listed in my resume?'
+2026-01-10 23:22:09,750 - app_logger - INFO - Response sent for query: 'What skills are listed in my resume?'
