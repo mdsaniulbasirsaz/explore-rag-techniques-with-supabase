@@ -1,4 +1,4 @@
-This is a simple hands-on practice project where I explore Supabase via docker, Pydantic AI and RAG approach. My goal is to build a lightweight pipeline that ingests PDFs, stores embeddings in Supabase (pgvector) and ecommerce product list retrive via user query uses Gemini 2.5 Flash to answer queries.
+This is a simple hands-on practice project where I explore Supabase via docker, Pydantic AI and RAG approach. My goal is to build a lightweight pipeline that ingests PDFs, stores embeddings in Supabase (pgvector) and ecommerce product list (mongodb) retrive via user query uses Gemini 2.5 Flash to answer queries.
 ## Project Structure
 ```
 ├── app/
@@ -59,6 +59,7 @@ http://localhost:54321/documents   # Here documents is supabase table name
 Supabas Running in Docker Container:
 ![alt text](images/supabase-docker.png)
 ![alt text](images/vector-data-pdf1.png)
+![alt text](images/mongodb-data.png)
 
 ![alt text](images/Supabase-Data.png)
 
