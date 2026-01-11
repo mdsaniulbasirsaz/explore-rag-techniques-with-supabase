@@ -1,5 +1,4 @@
-This is a simple hands-on practice project where I explore Supabase via docker, Pydantic AI and Hybrid RAG approach. My goal is to build a lightweight pipeline that ingests PDFs, stores embeddings in Supabase (pgvector) and uses Gemini 2.5 Flash to answer queries by combining multiple retrieval sources.
-
+This is a simple hands-on practice project where I explore Supabase via docker, Pydantic AI and RAG approach. My goal is to build a lightweight pipeline that ingests PDFs, stores embeddings in Supabase (pgvector) and ecommerce product list retrive via user query uses Gemini 2.5 Flash to answer queries.
 ## Project Structure
 ```
 ├── app/
@@ -14,6 +13,8 @@ This is a simple hands-on practice project where I explore Supabase via docker, 
 └── .env
 └── .gitignore
 ```
+## Architecture
+![alt text](images/ecommerce-arch.png)
 ## Create python Environments
 ```
 python3 -m venv venv
@@ -37,6 +38,7 @@ pip
 GEMINI_API_KEY=gemini-key
 SUPABASE_DB_URL=postgresql://postgres:postgres@localhost:54322/postgres
 LOG_LEVEL=INFO
+MONGODB_URI
 ```
 
 Run

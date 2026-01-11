@@ -1,10 +1,19 @@
 from fastapi import FastAPI
 from app.models import QueryRequest, RAGResponse
+from fastapi.middleware.cors import CORSMiddleware
 
 from app.rag import ask
 from app.logger import logger
 
 app = FastAPI(title="Hybrid RAG Hands on Practice with API with Logger")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/")
 def home():
